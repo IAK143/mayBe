@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "open-internet-intelligence-engine"
+version = "0.1.0"
+description = "Open-source, local-first, continuously learning Internet Intelligence Engine"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.10.0",
+    "duckdb>=0.9.0",
+    "trafilatura>=1.6.0",
+    "numpy>=1.24.0",
+    "httpx>=0.24.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "hypothesis>=6.80.0",
+    "ruff>=0.1.0",
+    "pyright>=1.1.300"
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+    "e2e: End-to-end synthetic tests",
+    "slow: Slow running tests",
+    "benchmark: Benchmark tests",
+    "network: Tests requiring external network access",
+    "gpu: Tests requiring GPU hardware",
+    "optional: Optional tests"
+]

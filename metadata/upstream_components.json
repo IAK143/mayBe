@@ -1,0 +1,255 @@
+[
+  {
+    "component": "guidekp",
+    "repository": "pisa-engine/guidekp",
+    "authors": [
+      "PISA Team"
+    ],
+    "paper": "GuideKP: k-means-guided Partitioning for Block-Max Indexing",
+    "license": "Apache-2.0",
+    "upstream_commit": "abaa46cd785e8c1aaeaec33a28deccb6234fe106",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "sprawl",
+    "repository": "pisa-engine/sprawl",
+    "authors": [
+      "PISA Team"
+    ],
+    "paper": "SPRAWL: Early Termination for Budgeted Sparse Retrieval",
+    "license": "Apache-2.0",
+    "upstream_commit": "95aad146183a80fdbf5266cc815c7c7176bd4e67",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "BMP",
+    "repository": "pisa-engine/BMP",
+    "authors": [
+      "PISA Team"
+    ],
+    "paper": "Block-Max Wand / Pruning for Sparse Retrieval",
+    "license": "Apache-2.0",
+    "upstream_commit": "c0a17ffc094976da4db2a4e8717e3ce9012c2ce5",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "ConstBERT",
+    "repository": "pisa-engine/ConstBERT",
+    "authors": [
+      "PISA Team"
+    ],
+    "paper": "ConstBERT: Fixed-Space Multi-Vector Multi-Hop Dense Retrieval",
+    "license": "Apache-2.0",
+    "upstream_commit": "a206df351ead14b1349702a30166890edaae13c9",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "pylate",
+    "repository": "lightonai/pylate",
+    "authors": [
+      "LightOn AI"
+    ],
+    "paper": "PyLate: Flexible Late Interaction Retrieval Library",
+    "license": "Apache-2.0",
+    "upstream_commit": "3389837ce465ee66e46f369a3f821a96788b7f29",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "fast-plaid",
+    "repository": "lightonai/fast-plaid",
+    "authors": [
+      "LightOn AI"
+    ],
+    "paper": "FastPlaid: High-Performance ColBERT Engine",
+    "license": "Apache-2.0",
+    "upstream_commit": "df2be46ee930d066507a813208e4cfd1117eac74",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "Baleen",
+    "repository": "stanford-futuredata/Baleen",
+    "authors": [
+      "Khattab et al.",
+      "Stanford FutureData"
+    ],
+    "paper": "Baleen: Condensed Multi-Hop Retrieval",
+    "license": "MIT",
+    "upstream_commit": "936c50540ce92d307a5d612c745fc046575285fa",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "splade-index",
+    "repository": "rasyosef/splade-index",
+    "authors": [
+      "Rasyosef"
+    ],
+    "paper": "SPLADE Sparse Retrieval Indexing",
+    "license": "MIT",
+    "upstream_commit": "ebcaed565bb7553f20c7b98483e6afda59d05bf3",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "GLiNER",
+    "repository": "urchade/GLiNER",
+    "authors": [
+      "Urchade Zaratiana et al."
+    ],
+    "paper": "GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer",
+    "license": "Apache-2.0",
+    "upstream_commit": "f3c945702b9b5cde381c27b95310c47909bcfd80",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "DEEIA",
+    "repository": "LWL-cpu/DEEIA",
+    "authors": [
+      "LWL-cpu"
+    ],
+    "paper": "DEEIA: Dynamic Event & Entity Extraction Infrastructure",
+    "license": "MIT",
+    "upstream_commit": "11d5af8ed2ee723112d14f2a368a8ad909af8826",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "StoryForest",
+    "repository": "BangLiu/StoryForest",
+    "authors": [
+      "Bang Liu et al."
+    ],
+    "paper": "StoryForest: Online Event Clustering and Story Tree Construction",
+    "license": "GPL-3.0",
+    "upstream_commit": "6c504f0148189bd4bf3805f5d7d5036004092363",
+    "integration_type": "adapter",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "TeRDy",
+    "repository": "Young0222/TeRDy",
+    "authors": [
+      "Young0222"
+    ],
+    "paper": "TeRDy: Temporal Event Dynamic Analysis",
+    "license": "MIT",
+    "upstream_commit": "f3f47986adb97eee26ac2e59811dc0d02df570f4",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "ruptures",
+    "repository": "deepcharles/ruptures",
+    "authors": [
+      "Charles Truong et al."
+    ],
+    "paper": "ruptures: Change point detection in Python",
+    "license": "BSD-2-Clause",
+    "upstream_commit": "ee1c8ff8a548d54c641b2bb471562165931f31c7",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "river",
+    "repository": "online-ml/river",
+    "authors": [
+      "Max Halford et al."
+    ],
+    "paper": "River: Online machine learning in Python",
+    "license": "BSD-3-Clause",
+    "upstream_commit": "086e8028b4867ee7dbc40d4e7b9886c5fe80f4a7",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "semhash",
+    "repository": "MinishLab/semhash",
+    "authors": [
+      "MinishLab"
+    ],
+    "paper": "SemHash: Fast Semantic Hashing & Deduplication",
+    "license": "MIT",
+    "upstream_commit": "19f9c590913eac243cba2ab2c9a89e45082a16df",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "trafilatura",
+    "repository": "adbar/trafilatura",
+    "authors": [
+      "Adrien Barbaresi"
+    ],
+    "paper": "Trafilatura: Web Scraping and Text Extraction",
+    "license": "GPL-3.0-or-later",
+    "upstream_commit": "7f54f679c8482c62b3c78050d4a7b48c95639c66",
+    "integration_type": "adapter",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "splink",
+    "repository": "moj-analytical-services/splink",
+    "authors": [
+      "MOJ Analytical Services"
+    ],
+    "paper": "Splink: Fast probabilistic entity resolution at scale",
+    "license": "MIT",
+    "upstream_commit": "68ced2a46105dca1df1f35b037a3edcdf87a60c7",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  },
+  {
+    "component": "graphiti",
+    "repository": "getzep/graphiti",
+    "authors": [
+      "Zep AI"
+    ],
+    "paper": "Graphiti: Temporal Knowledge Graph Engine",
+    "license": "Apache-2.0",
+    "upstream_commit": "689de295c209631405c00e19e0af4f9735142f13",
+    "integration_type": "dependency",
+    "files_copied": [],
+    "files_modified": [],
+    "citation_required": true
+  }
+]
